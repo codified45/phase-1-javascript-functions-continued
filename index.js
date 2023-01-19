@@ -8,3 +8,10 @@ function saturdayFun(funAction = 'roller-skate') {
     return saturdayResponse;
 }
 
+const mondayWork = function (mondayActivity = 'go to the office') {
+
+    let mondayStatement;
+    mondayStatement = `This Monday, I will ${mondayActivity}.`;
+    return mondayStatement;
+}
+
